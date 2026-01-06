@@ -43,7 +43,8 @@ if user_question:
 
     # Initialize Gemini
     try:
-        llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash-latest", google_api_key=api_key)
+        llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=api_key)
+        
 
         # The Strict Prompt
         template = """
